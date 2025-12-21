@@ -1,0 +1,243 @@
+@media (max-width: 1023px) {
+  .melissa-modular-container {
+    grid-template-columns: 1fr;
+  }
+
+  .melissa-modular-sidebar {
+    display: none;
+  }
+
+  .melissa-modular-main {
+    padding: 20px;
+  }
+
+  .melissa-modular-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .melissa-modular-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .melissa-modular-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .melissa-modular-item-image {
+    height: 180px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .melissa-modular-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .melissa-modular-sidebar {
+    display: none;
+  }
+
+  .melissa-modular-main {
+    padding: 16px;
+  }
+
+  .melissa-modular-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .melissa-modular-description {
+    font-size: 13px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .melissa-modular-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .melissa-modular-item {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+
+  .melissa-modular-item-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+
+  .melissa-modular-item-name {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .melissa-modular-item-description {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+
+  .melissa-modular-item-price {
+    font-size: 13px;
+    font-weight: bold;
+    color: #c41e3a;
+    margin-bottom: 8px;
+  }
+
+  .melissa-modular-item-button {
+    font-size: 11px;
+    padding: 6px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .melissa-modular-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .melissa-modular-sidebar {
+    display: none;
+  }
+
+  .melissa-modular-main {
+    padding: 12px;
+  }
+
+  .melissa-modular-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .melissa-modular-description {
+    font-size: 11px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  .melissa-modular-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .melissa-modular-item {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+  }
+
+  .melissa-modular-item-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-bottom: 6px;
+  }
+
+  .melissa-modular-item-name {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    line-height: 1.2;
+  }
+
+  .melissa-modular-item-description {
+    font-size: 9px;
+    color: #666;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .melissa-modular-item-price {
+    font-size: 11px;
+    font-weight: bold;
+    color: #c41e3a;
+    margin-bottom: 6px;
+  }
+
+  .melissa-modular-item-button {
+    font-size: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+  }
+}
+
+@media (max-width: 375px) {
+  .melissa-modular-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .melissa-modular-main {
+    padding: 10px;
+  }
+
+  .melissa-modular-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .melissa-modular-description {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .melissa-modular-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .melissa-modular-item {
+    padding: 4px;
+  }
+
+  .melissa-modular-item-image {
+    height: 100px;
+    margin-bottom: 4px;
+  }
+
+  .melissa-modular-item-name {
+    font-size: 9px;
+    margin-bottom: 2px;
+  }
+
+  .melissa-modular-item-description {
+    font-size: 8px;
+  }
+
+  .melissa-modular-item-price {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .melissa-modular-item-button {
+    font-size: 9px;
+    padding: 4px;
+  }
+}

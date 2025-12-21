@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Карточка товара — Лером</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-top">
+    <div class="header-top__left">
+      <div class="header-contacts">
+        <span>Пн-Пт: 10:00 до 20:00</span>
+        <span>Сб-Вс: 10:00 до 18:00</span>
+        <a href="#">Наши салоны</a>
+      </div>
+    </div>
+    <div class="header-top__center">
+      <a href="index.html" class="logo">ЛЕРОМ</a>
+    </div>
+    <div class="header-top__right">
+      <div class="header-phones">
+        <div class="header-phones__block">
+          <span>Отдел продаж:</span>
+          <a href="tel:+74956645457">+7 (495) 664-54-57</a>
+          <a href="tel:+79292883535">+7 (929) 288-35-35</a>
+        </div>
+        <div class="header-phones__block">
+          <span>Звонок по России:</span>
+          <a href="tel:88000000000">8-800-000-00-00</a>
+          <span>Бесплатно</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-bottom">
+    <nav class="nav">
+      <a href="#catalog-popup" class="nav__item nav__item--active">Каталог</a>
+      <a href="#" class="nav__item">О нас</a>
+      <a href="#" class="nav__item">3D-моделирование</a>
+      <a href="#" class="nav__item">Покупателю</a>
+      <a href="checkout.html" class="nav__item">Доставка и оплата</a>
+    </nav>
+    <div class="header-search">
+      <input type="text" placeholder="Поиск по сайту...">
+      <button type="button">Найти</button>
+    </div>
+    <button class="header-cart" type="button">
+      <span class="header-cart__icon"><a href = "cart.html">&nbsp;</a></span> 
+      <span class="header-cart__count">0</span>
+    </button>
+  </div>
+</header>
+<main class="page">
+
+  <div class="breadcrumbs">
+    <a href="#">Главная</a>
+    <span class="breadcrumbs__sep">›</span>
+    <a href="#">Гостиные</a>
+    <span class="breadcrumbs__sep">›</span>
+    <a href="#">Коллекция</a>
+  </div>
+
+  <section class="product-top">
+    <div class="product-top__left">
+      <div class="product-gallery">
+        <div class="product-gallery__main"><img src="assets/photo/ZXC346-3.jpg" alt="Модуль ZXC346-3"></div>
+      </div>
+    </div>
+
+    <div class="product-top__center">
+      <h1 class="product-title">Название модели</h1>
+
+      <div class="product-article">
+        <span>Артикул:</span>
+        <a href="#">3432533423</a>
+      </div>
+
+      <div class="product-params">
+        <div class="product-param">
+          <span class="product-param__label">Размеры:</span>
+          <span class="product-param__value">В 2264 Ш 540 Г 352</span>
+        </div>
+        <div class="product-param">
+          <span class="product-param__label">Вес:</span>
+          <span class="product-param__value">234234 кг</span>
+        </div>
+      </div>
+
+      <div class="product-colors">
+        <span class="product-colors__label">Цвет:</span>
+        <button class="product-color"></button>
+        <button class="product-color"></button>
+        <button class="product-color"></button>
+        <button class="product-color"></button>
+        <button class="product-color"></button>
+        <button class="product-color"></button>
+      </div>
+
+      <div class="product-price-row">
+        <div class="product-price">
+          <span class="product-price__label">Цена:</span>
+          <span class="product-price__value">62 284 ₽</span>
+        </div>
+        <div class="product-qty">
+          <button class="product-qty__btn" type="button">–</button>
+          <input type="text" value="1" class="product-qty__input">
+          <button class="product-qty__btn" type="button">+</button>
+        </div>
+        <button class="product-buy" type="button">Купить</button>
+      </div>
+    </div>
+
+    <aside class="product-top__right">
+      <div class="product-banner">
+        <div class="product-banner__inner">
+          <p class="product-banner__title">Рассрочка<br>без %</p>
+          <button class="product-banner__button" type="button">Подробнее</button>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="product-tabs">
+    <div class="product-tabs__header">
+      <button class="product-tab product-tab--active" type="button">
+        Технические характеристики
+      </button>
+      <button class="product-tab" type="button">
+        Состав композиции
+      </button>
+    </div>
+
+    <div class="product-tabs__body">
+      <div class="product-tab-panel product-tab-panel--active">
+        <h2 class="product-tab-panel__title">Технические характеристики</h2>
+        <p class="product-tab-panel__text">
+          – корпус: Ясень Асахи, фасад: Снежный ясень (АС-СЯ) «новый декор»<br>
+          – Ясень Асахи (АС)<br>
+          – Акация Молдау (АТ)<br>
+          – Гикори Джексон светлый (ГС)<br>
+          – Снежный Ясень (СЯ)
+        </p>
+        <p class="product-tab-panel__text">
+          Фасады коллекции имитируют специальную технологию «браширования» с глубоким тиснением.
+        </p>
+        <p class="product-tab-panel__text">
+          Мягкие доводчики Glissando TL 2 компании Titus (Словения) обеспечивают бесшумное и мягкое закрытие створок.
+        </p>
+        <p class="product-tab-panel__text">
+          Мебель изготовлена из экологичных материалов. Применяемые в производстве ЛДСП и МДФ компании «Egger»
+          имеют класс эмиссии E1.
+        </p>
+        <p class="product-tab-panel__text">
+          Стекло фасадов графит серый.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-related">
+    <h2 class="product-related__title">С этим товаром можно купить</h2>
+
+    <div class="product-related__list">
+
+      <article class="related-card">
+        <div class="related-card__image"><img src="assets/photo/АН-2801.jpg" alt="АН-2801"></div>
+        <div class="related-card__info">
+          <div class="related-card__code">АН-2801</div>
+          <div class="related-card__size">В 2264 Ш 540 Г 352</div>
+          <div class="related-card__price">6 284 ₽</div>
+        </div>
+      </article>
+
+      <article class="related-card">
+        <div class="related-card__image"><img src="assets/photo/АН-2801(1).jpg" alt="АН-2801(1)"></div>
+        <div class="related-card__info">
+          <div class="related-card__code">АН-2801</div>
+          <div class="related-card__size">В 2264 Ш 540 Г 352</div>
+          <div class="related-card__price">6 284 ₽</div>
+        </div>
+      </article>
+
+      <article class="related-card">
+        <div class="related-card__image"><img src="assets/photo/АН-2801(2).jpg" alt="АН-2801(2)"></div>
+        <div class="related-card__info">
+          <div class="related-card__code">АН-2801</div>
+          <div class="related-card__size">В 2264 Ш 540 Г 352</div>
+          <div class="related-card__price">6 284 ₽</div>
+        </div>
+      </article>
+
+      <article class="related-card">
+        <div class="related-card__image"><img src="assets/photo/АН-2801(3).jpg" alt="АН-2801(3)"></div>
+        <div class="related-card__info">
+          <div class="related-card__code">АН-2801</div>
+          <div class="related-card__size">В 2264 Ш 540 Г 352</div>
+          <div class="related-card__price">6 284 ₽</div>
+        </div>
+      </article>
+
+      <article class="related-card">
+        <div class="related-card__image"><img src="assets/photo/АН-2801(2).jpg" alt="АН-2801(2)"></div>
+        <div class="related-card__info">
+          <div class="related-card__code">АН-2801</div>
+          <div class="related-card__size">В 2264 Ш 540 Г 352</div>
+          <div class="related-card__price">6 284 ₽</div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">ЛЕРОМ</div>
+  </div>
+
+  <div class="footer-columns">
+    <div class="footer-column">
+      <h4>О компании</h4>
+      <a href="#">Производство</a>
+      <a href="#">Награды</a>
+      <a href="#">Сертификаты</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Покупателю</h4>
+      <a href="cart.html">Как сделать заказ</a>
+      <a href="#">Рекомендации по сборке</a>
+      <a href="#">Договор публичной оферты</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Полезная информация</h4>
+      <a href="#">Всё о фасадах</a>
+      <a href="#">Всё о фурнитуре</a>
+      <a href="#">Всё о ЛДСП</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>3D-моделирование</h4>
+      <a href="#">Запустить онлайн</a>
+      <a href="#">Скачать на компьютер</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Рассрочка</h4>
+      <a href="#">Гарантия</a>
+      <a href="#">Контакты</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© ООО «Мебельная компания “Лером”» 2021</span>
+    <span>Сайт разработан — ESV digital</span>
+  </div>
+</footer>
+
+</body>
+</html>
